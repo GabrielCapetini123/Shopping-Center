@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Shopping.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\Images\\favicon.png",
+      "PackagePath": "staticwebassets\\Images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\Images\\geek_shopping.png",
+      "PackagePath": "staticwebassets\\Images\\geek_shopping.png"
+    },
+    {
       "Id": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,7 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shopping.ProductAPI.Data.ValueObjects;
 using Shopping.ProductAPI.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Shopping.ProductAPI.Controllers
 {
@@ -14,7 +19,7 @@ namespace Shopping.ProductAPI.Controllers
         public ProductController(IProductRepository repository)
         {
             _repository = repository ?? throw new
-                ArgumentException(nameof(repository));
+                ArgumentNullException(nameof(repository));
         }
 
         [HttpGet]
@@ -33,15 +38,15 @@ namespace Shopping.ProductAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ProductVO>> Create(ProductVO vo)
+        public async Task<ActionResult<ProductVO>> Create([FromBody] ProductVO vo)
         {
             if (vo == null) return BadRequest();
-            var product = await _repository.Create(vo);            
+            var product = await _repository.Create(vo);
             return Ok(product);
         }
 
         [HttpPut]
-        public async Task<ActionResult<ProductVO>> Update(ProductVO vo)
+        public async Task<ActionResult<ProductVO>> Update([FromBody] ProductVO vo)
         {
             if (vo == null) return BadRequest();
             var product = await _repository.Update(vo);
@@ -52,10 +57,8 @@ namespace Shopping.ProductAPI.Controllers
         public async Task<ActionResult> Delete(long id)
         {
             var status = await _repository.Delete(id);
-            if (!status) return NotFound();
-
+            if (!status) return BadRequest();
             return Ok(status);
         }
-
     }
 }

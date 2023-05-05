@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{AE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{52AFD42D-4976-4213-93ED-071F9811817C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Web", "Shopping.Web\Shopping.Web.csproj", "{4B5B77F5-3E8D-4D81-BA56-508CF0BE44AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Web", "Shopping.Web\Shopping.Web.csproj", "{4B5B77F5-3E8D-4D81-BA56-508CF0BE44AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.ProductAPI", "Shopping.ProductAPI\Shopping.ProductAPI.csproj", "{1F531FC7-3D9C-418D-B7C0-673CAF18A264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.ProductAPI", "Shopping.ProductAPI\Shopping.ProductAPI.csproj", "{1F531FC7-3D9C-418D-B7C0-673CAF18A264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

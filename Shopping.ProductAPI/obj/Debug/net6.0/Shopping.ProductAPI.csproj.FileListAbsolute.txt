@@ -62,3 +62,8 @@ C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\Syst
 C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\libman.json
+C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

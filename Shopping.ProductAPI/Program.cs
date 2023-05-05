@@ -1,4 +1,5 @@
 using AutoMapper;
+using GeekShopping.ProductAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Shopping.ProductAPI.Config;

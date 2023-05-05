@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aGkBHOxf8EQ6Vy3I6fTEuQNFfrCkfTLC8VGC/+554p0=",
+  "Hash": "AaZM1QcXXmcvl64r7cnAqVslPPB8vFbrPOJ+c2jsKAs=",
   "Source": "Shopping.Web",
   "BasePath": "_content/Shopping.Web",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\Images\\favicon.png",
+      "SourceId": "Shopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\",
+      "BasePath": "_content/Shopping.Web",
+      "RelativePath": "Images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\Images\\geek_shopping.png",
+      "SourceId": "Shopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\",
+      "BasePath": "_content/Shopping.Web",
+      "RelativePath": "Images/geek_shopping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\geek_shopping.png"
     },
     {
       "Identity": "C:\\Users\\gabriel\\source\\repos\\Shopping\\Shopping.Web\\wwwroot\\js\\site.js",

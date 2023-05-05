@@ -1,11 +1,15 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Shopping.ProductAPI.Data.ValueObjects;
-using Shopping.ProductAPI.Model;
 using Shopping.ProductAPI.Model.Context;
+using Shopping.ProductAPI.Model;
+using Shopping.ProductAPI.Repository;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Shopping.ProductAPI.Repository
+namespace GeekShopping.ProductAPI.Repository
 {
     public class ProductRepository : IProductRepository
     {
@@ -17,6 +21,7 @@ namespace Shopping.ProductAPI.Repository
             _context = context;
             _mapper = mapper;
         }
+
         public async Task<IEnumerable<ProductVO>> FindAll()
         {
             List<Product> products = await _context.Products.ToListAsync();
@@ -26,10 +31,11 @@ namespace Shopping.ProductAPI.Repository
         public async Task<ProductVO> FindById(long id)
         {
             Product product =
-                await _context.Products.Where(x => x.Id == id)
+                await _context.Products.Where(p => p.Id == id)
                 .FirstOrDefaultAsync();
             return _mapper.Map<ProductVO>(product);
         }
+
         public async Task<ProductVO> Create(ProductVO vo)
         {
             Product product = _mapper.Map<Product>(vo);
@@ -50,20 +56,17 @@ namespace Shopping.ProductAPI.Repository
             try
             {
                 Product product =
-                await _context.Products.Where(x => x.Id == id)
-                .FirstOrDefaultAsync();
-
+                await _context.Products.Where(p => p.Id == id)
+                    .FirstOrDefaultAsync();
                 if (product == null) return false;
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
-
                 return true;
             }
-            catch (Exception erro)
+            catch (Exception)
             {
                 return false;
             }
         }
-
     }
 }
