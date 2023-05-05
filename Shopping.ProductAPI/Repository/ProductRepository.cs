@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GeekShopping.ProductAPI.Repository
+namespace ProductAPI.Repository
 {
     public class ProductRepository : IProductRepository
     {

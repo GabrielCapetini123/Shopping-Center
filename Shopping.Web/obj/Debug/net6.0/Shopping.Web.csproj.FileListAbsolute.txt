@@ -65,3 +65,9 @@ C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Microsoft.E
 C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\gabriel\source\repos\Shopping\Shopping.Web\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
